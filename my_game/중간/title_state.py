@@ -1,5 +1,5 @@
 import game_framework
-import ZORO
+import main_state
 from pico2d import *
 
 
@@ -10,36 +10,32 @@ image = None
 def enter():
     global image
     image = load_image('title.png')
-    pass
 
 
 def exit():
     global image
     del(image)
-    pass
 
 
 def handle_events():
     events = get_events()
     for event in events:
         if event.type == SDL_QUIT:
-            game_frame_work.quit()
+            game_framework.quit()
         else:
-            if (event.type, event.key) == (SDL_KEYDOWN, SDLK_ESCAPE):
+            if(event.type, event.key) == (SDL_KEYDOWN, SDLK_ESCAPE):
                 game_framework.quit()
-            elif (event.type, event.key) == (SDL_KEYDOWN, SDLK_SPACE):
-                game_framework.change_state(ZORO)
-    pass
+            elif(event.type, event.key) == (SDL_KEYDOWN, SDLK_SPACE):
+                game_framework.change_state(main_state)
 
 
-def draw():
+def draw(frame_time):
     clear_canvas()
-    image.draw(400, 300)
+    image.draw(400,300)
     update_canvas()
-    pass
 
 
-def update():
+def update(frame_time):
     pass
 
 
@@ -49,9 +45,3 @@ def pause():
 
 def resume():
     pass
-
-
-
-
-
-
