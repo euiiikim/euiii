@@ -1,0 +1,10 @@
+{
+    "crr1" : {"state" : "crr", "x" : 900, "y" : 110},
+    "crr2" : {"state" : "crr", "x" : 975, "y" : 110},
+    "crr3" : {"state" : "crr", "x" : 1025, "y" : 110},
+    "crr4" : {"state" : "crr", "x" : 1720, "y" : 110},
+    "crr5" : {"state" : "crr", "x" : 2100, "y" : 110},
+    "crr6" : {"state" : "crr", "x" : 2340, "y" : 110},
+    "crr7" : {"state" : "crr", "x" : 4200, "y" : 110},
+    "crr8" : {"state" : "crr", "x" : 4550, "y" : 110}
+}
