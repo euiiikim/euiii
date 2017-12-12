@@ -1,0 +1,16 @@
+{
+    "boom1" : {"state" : "boom", "x" : 950, "y" : 110},
+    "boom2" : {"state" : "boom", "x" : 1000, "y" : 110},
+    "boom3" : {"state" : "boom", "x" : 1050, "y" : 110},
+    "boom4" : {"state" : "boom", "x" : 1700, "y" : 110},
+    "boom5" : {"state" : "boom", "x" : 2150, "y" : 110},
+    "boom6" : {"state" : "boom", "x" : 2200, "y" : 110},
+    "boom7" : {"state" : "boom", "x" : 2250, "y" : 110},
+    "boom8" : {"state" : "boom", "x" : 2300, "y" : 110},
+    "boom9" : {"state" : "boom", "x" : 4250, "y" : 110},
+    "boom10" : {"state" : "boom", "x" : 4300, "y" : 110},
+    "boom11" : {"state" : "boom", "x" : 4350, "y" : 110},
+    "boom12" : {"state" : "boom", "x" : 4400, "y" : 110},
+    "boom13" : {"state" : "boom", "x" : 4450, "y" : 110},
+    "boom14" : {"state" : "boom", "x" : 4500, "y" : 110}
+}

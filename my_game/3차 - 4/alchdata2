@@ -1,0 +1,5 @@
+{
+    "alch1" : {"state" : "alch2", "x" : 1900, "y" : 110},
+    "alch2" : {"state" : "alch2", "x" : 3200, "y" : 110},
+    "alch3" : {"state" : "alch2", "x" : 5000, "y" : 90}
+}

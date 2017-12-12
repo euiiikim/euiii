@@ -1,0 +1,11 @@
+{
+    "enemy1" : {"state" : "enemy1", "x" : 500, "y" : 90},
+    "enemy2" : {"state" : "enemy1", "x" : 900, "y" : 90},
+    "enemy3" : {"state" : "enemy1", "x" : 1800, "y" : 90},
+    "enemy4" : {"state" : "enemy1", "x" : 2700, "y" : 90},
+    "enemy5" : {"state" : "enemy1", "x" : 2900, "y" : 90},
+    "enemy6" : {"state" : "enemy1", "x" : 4100, "y" : 90},
+    "enemy7" : {"state" : "enemy1", "x" : 4200, "y" : 90},
+    "enemy8" : {"state" : "enemy1", "x" : 4600, "y" : 90},
+    "enemy9" : {"state" : "enemy1", "x" : 5850, "y" : 90}
+}
