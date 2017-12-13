@@ -120,7 +120,7 @@ def update(frame_time):
         if crush(zoro, al):
             alch_sound.alch_sound.play()
             alch.remove(al)
-            zoro.hp += 20
+            zoro.hp += 500
     for cr in crr:
         cr.update(frame_time)
         if crush(zoro, cr):
@@ -131,12 +131,10 @@ def update(frame_time):
         bo.update(frame_time)
         if crush(zoro, bo):
             zoro.state = "crush"
-            zoro.hp -= 500
     for hur in hurdle:
         hur.update(frame_time)
         if crush(zoro, hur):
             zoro.state = "crush"
-            zoro.hp -= 500
     for jel in jelly:
         jel.update(frame_time)
         if crush(zoro, jel):

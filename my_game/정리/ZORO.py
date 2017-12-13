@@ -130,7 +130,7 @@ class ZORO2:
         if self.state == "crush":
             self.collidtime += 1
             if self.collidtime == 1:
-                self.hp -= 200
+                self.hp -= 250
                 self.crush_sound.play(1)
             if (self.collidtime >= 10):
                 self.state = "run"
